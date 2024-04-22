@@ -1,0 +1,3 @@
+name,objective_function
+minimize_makespan,makespan
+minimize_oee,oee

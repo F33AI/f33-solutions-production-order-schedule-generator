@@ -1,0 +1,16 @@
+absl-py==2.1.0
+click==8.1.7
+immutabledict==4.2.0
+numpy==1.26.4
+ortools==9.9.3963
+pandas==2.2.1
+pip==23.3.1
+protobuf==5.26.0
+python-dateutil==2.9.0.post0
+pytz==2024.1
+setuptools==68.2.2
+six==1.16.0
+typer==0.10.0
+typing_extensions==4.10.0
+tzdata==2024.1
+wheel==0.41.2

@@ -1,0 +1,15 @@
+env: flex
+service: f33-solutions-scheduler
+
+instance_class: B2
+entrypoint: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0 --server.enableCORS=false --server.enableWebsocketCompression=false --server.enableXsrfProtection=false --server.headless=true
+
+runtime_config:
+  operating_system: "ubuntu22"
+  runtime_version: "3.11"
+
+manual_scaling:
+    instances: 1
+
+network:
+  session_affinity: true

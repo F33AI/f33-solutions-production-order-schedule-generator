@@ -1,0 +1,10 @@
+# Basic configuration
+project_id: ...
+region: ...
+bucket_name: ...
+artifacts_repository_name: "f33-solutions"
+
+# Advanced configuration
+batch_machine_type: "e2-standard-2"
+web_username: "user"
+web_password: "user"
